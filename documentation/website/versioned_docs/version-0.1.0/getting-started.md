@@ -1,6 +1,7 @@
 ---
-id: getting-started
+id: version-0.1.0-getting-started
 title: Getting started
+original_id: getting-started
 ---
 
 The SAS Visual Analytics SDK enables you to use the power of SAS Visual Analytics in your own websites and HTML applications.
@@ -39,13 +40,9 @@ needed in order to connect to SAS Viya from the domain that is hosting your HTML
 <a target="_blank" href="https://developer.sas.com/reference/cors/">developer.sas.com</a> and
 <a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.4&docsetId=calauthmdl&docsetTarget=n1pkgyrtk8bp4zn1d0v1ln4869og.htm#p04ifnaixhf85in1xo7zrr2fgimf">SAS Help Center</a> for more information.
 
-### Cross-Site Request Forgery
-
-SAS Viya servers protect against Cross-Site Request Forgery (CSRF) by blocking requests where the HTTP Referer Header does not match the uri of the requested resource or a uri whitelist. CSRF checks are only made on authenticated sessions, so this is not applicable if using `authenticationType="guest"`. If using `authenticationType="credentials"`, the domain of the site using the SAS Visual Analytics SDK must be whitelisted in the CSRF configuration.  See <a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.4&docsetId=calconfig&docsetTarget=n08030sasconfiguration0admin.htm#n0nf0wwa3p7mjhn11926x4k9gl72">SAS Help Center</a> for more information.
-
 ### Allow guest access
 
-The SAS Visual Analytics SDK has the option to connect to the SAS Viya server using guest authentication. This requires that the SAS Viya system be
+The SAS Visual Analytics SDK connects to the SAS Viya server using guest authentication. This requires that the SAS Viya system be
 set up to enable Guest mode, and that the Guest user has access to the appropriate report content and data. For more information, see 
 <a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.4&docsetId=calauthmdl&docsetTarget=n067qoyrgu1yohn19nq4ehy8o0b3.htm#p04ifnaixhf85in1xo7zrr2fgimf">SAS Help Center</a>.
 

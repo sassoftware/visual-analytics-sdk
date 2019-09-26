@@ -17,8 +17,8 @@ const siteConfig = {
   baseUrl: baseUrl, // Base URL for your project
 
   // Used for publishing and more
-  projectName: 'va-sdk',
-  organizationName: 'SAS',
+  projectName: 'visual-analytics-sdk',
+  organizationName: 'sassoftware',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [

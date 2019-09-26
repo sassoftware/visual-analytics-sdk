@@ -1,6 +1,7 @@
 ---
-id: SASReportObjectElement
+id: version-0.1.0-SASReportObjectElement
 title: SASReportObjectElement
+original_id: SASReportObjectElement
 ---
 
 `SASReportObjectElement` is a custom HTML element that renders a report object. This could be a single object or a
@@ -24,11 +25,10 @@ the correct values for `url`, `reportUri`, and `objectName`.
 
 ### `authenticationType: string`
 
-Choose the method to authenticate requests to the SAS Viya server.
-- `'guest'` automatically logs in to the SAS Viya server as the guest user.
-- `'credentials'` uses SAS Logon to establish an authenticated session.
+Choose the method that will be used to authenticate requests to the Viya server.
 
-default value: `'credentials'`
+Currently the only valid value is `"guest"`. This attribute is required to support a future update where `"credential"`
+will be the default.
 
 ### `url: string`
 

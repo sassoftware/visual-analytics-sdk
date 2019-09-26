@@ -1,6 +1,7 @@
 ---
-id: registerDataDrivenContent
+id: version-0.2.0-registerDataDrivenContent
 title: registerDataDrivenContent
+original_id: registerDataDrivenContent
 ---
 
 ```

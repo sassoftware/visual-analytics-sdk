@@ -1,6 +1,7 @@
 ---
-id: registerDataDrivenContent
+id: version-0.1.0-registerDataDrivenContent
 title: registerDataDrivenContent
+original_id: registerDataDrivenContent
 ---
 
 ```
@@ -23,9 +24,9 @@ Choose options for how to connect to the server. The following properties are su
   the protocol, optional port, and host.
 - `reportUri: string`: Specify the report URI.
 - `objectName: string`: Specify name of the data-driven content object.
-- `authenticationType: string`: Choose the method to authenticate requests to the SAS Viya server.
-  - `'guest'` automatically logs in to the SAS Viya server as the guest user.
-  - `'credentials'` uses SAS Logon to establish an authenticated session.
+- `authenticationType: string`: Choose the method that will be used to authenticate requests to the Viya server.
+  - Currently the only valid value is `"guest"`. This attribute is required to support a future update where
+    `"credential"` will be the default.
 
 ### `onMessage: (receivedMessage: Object) => void`
 

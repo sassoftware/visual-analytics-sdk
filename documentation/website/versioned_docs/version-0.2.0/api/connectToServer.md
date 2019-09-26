@@ -1,6 +1,7 @@
 ---
-id: connectToServer
+id: version-0.2.0-connectToServer
 title: connectToServer
+original_id: connectToServer
 ---
 
 ```

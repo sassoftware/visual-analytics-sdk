@@ -1,7 +1,8 @@
 ---
-id: faq
+id: version-0.2.0-faq
 title: Frequently Asked Questions
 sidebar_label: FAQ
+original_id: faq
 ---
 
 ## What are the prerequisites for using the SAS Visual Analytics SDK?

@@ -1,6 +1,7 @@
 ---
-id: SASReportElement
+id: version-0.1.0-SASReportElement
 title: SASReportElement
+original_id: SASReportElement
 ---
 
 `SASReportElement` is a custom HTML element that renders an entire report. This element extends <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement">`HTMLElement`</a>.
@@ -24,10 +25,9 @@ the correct values for `url` and `reportUri`.
 ### `authenticationType: string`
 
 Choose the method to authenticate requests to the SAS Viya server.
-- `'guest'` automatically logs in to the SAS Viya server as the guest user.
-- `'credentials'` uses SAS Logon to establish an authenticated session.
 
-default value: `'credentials'`
+Currently, the only valid value is `"guest"`. This attribute is required to support a future update where `"credential"`
+will be the default.
 
 ### `url: string`
 

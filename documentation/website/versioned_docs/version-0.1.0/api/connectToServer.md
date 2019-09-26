@@ -1,6 +1,7 @@
 ---
-id: connectToServer
+id: version-0.1.0-connectToServer
 title: connectToServer
+original_id: connectToServer
 ---
 
 ```
@@ -24,6 +25,6 @@ Specify the url of the SAS Viya server. This is the full context root, including
 
 Choose additional options for how to connect to the server. The following properties are supported:
 
-- `authenticationType: string`: Choose the method to authenticate requests to the SAS Viya server.
-  - `'guest'` automatically logs in to the SAS Viya server as the guest user.
-  - `'credentials'` uses SAS Logon to establish an authenticated session.
+- `authenticationType: string`: Choose the method that will be used to authenticate requests to the Viya server.
+  - Currently the only valid value is `"guest"`. This attribute is required to support a future update where
+    `"credential"` will be the default.

@@ -1,6 +1,7 @@
 ---
-id: SASReportObjectElement
+id: version-0.2.0-SASReportObjectElement
 title: SASReportObjectElement
+original_id: SASReportObjectElement
 ---
 
 `SASReportObjectElement` is a custom HTML element that renders a report object. This could be a single object or a
