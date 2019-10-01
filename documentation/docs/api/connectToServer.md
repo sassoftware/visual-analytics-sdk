@@ -26,4 +26,4 @@ Choose additional options for how to connect to the server. The following proper
 
 - `authenticationType: string`: Choose the method to authenticate requests to the SAS Viya server.
   - `'guest'` automatically signs in to the SAS Viya server as the guest user.
-  - `'credentials'` uses SAS Logon to establish an authenticated session.
+  - `'credentials'` <b>`default`</b> uses SAS Logon to establish an authenticated session.
