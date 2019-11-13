@@ -22,11 +22,11 @@ npm install @sassoftware/va-report-components
 
 Accessing the `va-report-components` library from a CDN is easy. It does not require installation or
 hosting of the library code and assets. There are several public options for accessing NPM content through a CDN, such
-as <a target="_blank" href="https://unpkg.com/">UNPKG</a> and <a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a>. Here is an example of loading the 0.2.* version of `va-report-components` from UNPKG
+as <a target="_blank" href="https://unpkg.com/">UNPKG</a> and <a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a>. Here is an example of loading the 0.3.0 version of `va-report-components` from UNPKG
 using an HTML `script` tag.
 
 ```html
-<script async src="https://unpkg.com/@sassoftware/va-report-components@0.2/dist/umd/va-report-components.js"></script>
+<script async src="https://unpkg.com/@sassoftware/va-report-components@0.3.0/dist/umd/va-report-components.js"></script>
 ```
 
 ## SAS Viya setup

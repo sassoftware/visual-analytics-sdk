@@ -14,17 +14,25 @@ const patterns = [
 ];
 
 export function parseCopyLink(copyLink) {
+  let pageName =  undefined;
   let objectName = undefined;
   {
     const matchResult = copyLink.match(objectNamePattern);
     if (matchResult) {
-      objectName = matchResult[1];
+      const name = matchResult[1];
+      // Page links have the same form as object links, so the only way to
+      // differentiate is that page names always have a 'vi' name.
+      if(name && name.startsWith('vi')) {
+        pageName =  name;
+      } else {
+        objectName = name;
+      }
     }
   }
   for (const pattern of patterns) {
     const matchResult = pattern(copyLink);
     if (matchResult) {
-      return { ...matchResult, objectName };
+      return { ...matchResult, objectName, pageName };
     }
   }
   return null;
@@ -42,6 +50,7 @@ export const CodeContentTemplate = ({
   url,
   reportUid,
   objectName = null,
+  pageName = null
 }) => {
   const attributes = [
     { name: 'authenticationType', value: 'guest' },
@@ -49,6 +58,7 @@ export const CodeContentTemplate = ({
     { name: 'reportUri', value: `/reports/reports/${reportUid}` },
   ];
   if (objectName) attributes.push({ name: 'objectName', value: objectName });
+  if (pageName) attributes.push({ name: 'pageName', value: pageName });
   return CustomElementWrapperTemplate({ tagName, attributes })
 };
 
@@ -60,7 +70,13 @@ export function setup({ $input, $output }) {
   function setOutput(copyLinkMatch) {
     let tagName = null;
     if (copyLinkMatch) {
-      tagName = copyLinkMatch.objectName ? 'sas-report-object' : 'sas-report';
+      if(copyLinkMatch.pageName) {
+        tagName = 'sas-report-page';
+      } else if(copyLinkMatch.objectName) {
+        tagName = 'sas-report-object';
+      } else {
+        tagName = 'sas-report';
+      }
     }
 
     if (tagName === null) {

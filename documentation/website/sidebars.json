@@ -5,6 +5,7 @@
     "API Reference": [
       "api-reference",
       "api/SASReportElement",
+      "api/SASReportPageElement",
       "api/SASReportObjectElement",
       "api/connectToServer",
       "api/registerDataDrivenContent",
