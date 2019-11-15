@@ -5,8 +5,7 @@ title: SASReportElement
 
 `SASReportElement` is a custom HTML element that renders an entire report. This element extends <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement">`HTMLElement`</a>.
 
-See [the Getting Started page](getting-started.md#create-a-custom-html-tag) to learn how to find
-the correct values for `url` and `reportUri`.
+To find the correct values for `url` and `reportUri`, see [the Getting Started page](getting-started.md#create-a-custom-html-tag).
 
 ## Custom Element Tag
 

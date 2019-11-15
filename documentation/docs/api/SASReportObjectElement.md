@@ -6,8 +6,7 @@ title: SASReportObjectElement
 `SASReportObjectElement` is a custom HTML element that renders a report object. This could be a single object or a
 container of multiple objects. This element extends <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement">`HTMLElement`</a>.
 
-Check out [the Getting Started page](getting-started.md#create-a-custom-html-tag) to learn how to find
-the correct values for `url`, `reportUri`, and `objectName`.
+To find the correct values for `url`, `reportUri`, and `objectName`, see [the Getting Started page](getting-started.md#create-a-custom-html-tag).
 
 ## Custom Element Tag
 

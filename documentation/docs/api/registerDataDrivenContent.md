@@ -10,8 +10,7 @@ registerDataDrivenContent(options, onMessage): DataDrivenContentHandle
 This function is used to receive and dispatch messages to a data-driven content object. If the report is not yet
 opened then this call will open it and initiate data processing for this data-driven content object.
 
-See [the Getting Started page](getting-started.md#create-a-custom-html-tag) to learn how to find the correct values for
-`url`, `reportUri`, and `objectName`.
+To find the correct values for `url`, `reportUri`, and `objectName`, see [the Getting Started page](getting-started.md#create-a-custom-html-tag).
 
 ## Arguments
 
