@@ -15,7 +15,7 @@ To find the correct values for `url`, `reportUri`, and `pageName`, see [the Gett
   url="http://my-viya-server.com"
   reportUri="/reports/reports/c3c6befb-3981-4c9e-b011-7dc11dec5e37"
   pageName="vi20"
-></sas-report-object>
+></sas-report-page>
 ```
 
 ## Attributes
