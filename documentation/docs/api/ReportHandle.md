@@ -58,6 +58,14 @@ except report parameters missing from the `parameters` argument do not get
 reset to their default values. Calling `updateReportParameters` with an empty
 object has no effect on the report.
 
+### exportPDF(options?: ExportPDFOptions): Promise\<string>
+
+Export generates a PDF of the report and returns a URL to view the PDF.
+
+[`ExportPDFOptions`](ExportPDFOptions.md) can change the layout, format, and visuals of the exported report.
+If no `options` parameter is supplied, the report will be exported with the default
+option values.
+
 ### Example: setReportParameters
 
 In this example, the parameters `Date`, `Character`, `Multiple Character`,
@@ -90,6 +98,43 @@ sasReport.getReportHandle().then((reportHandle) => {
   reportHandle.updateReportParameters({
     Character: "String",
     Numeric: 12,
+  });
+});
+```
+
+### Example: exportPDF
+
+In this example, custom options are passed in to the export function, then
+the resulting URL is set to automatically open.
+
+```javascript
+const sasReport = getElementById("my-report");
+sasReport.getReportHandle().then((reportHandle) => {
+  const options = {
+    orientation: "portrait",
+    margin: { top: 0.2, bottom: 0.2, units: "inches" },
+    includeDetailsTables: true,
+    includedReportObjects: ["ve38", "ve56"],
+  };
+
+  // Helper function to automatically open the URL provided
+  const downloadUrl = function (url) {
+    const a = document.createElement("a");
+    document.body.appendChild(a);
+    a.addEventListener(
+      "click",
+      function () {
+        a.setAttribute("download", "report.pdf");
+        a.href = url;
+      },
+      false
+    );
+    a.click();
+    a.remove();
+  };
+
+  reportHandle.exportPDF(options).then((pdfUrl) => {
+    downloadUrl(pdfUrl);
   });
 });
 ```
