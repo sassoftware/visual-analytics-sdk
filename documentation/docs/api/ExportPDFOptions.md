@@ -3,8 +3,7 @@ id: ExportPDFOptions
 title: ExportPDFOptions
 ---
 
-ExportPDFOptions is an Object of options which customize the properties of an exported report. Each option will
-use their default value if not specified.
+ExportPDFOptions provides options for customizing the properties of an exported report. If no option is specified, then the default value is used.
 
 ## Options
 
@@ -23,11 +22,11 @@ Determines the size of the document.
         - `"centimeters"`
 
 ### `orientation: string` 
-Orientation of the PDF pages.
+Orientation of the page.
   - `"landscape"` <b>`default`</b>
   - `"portrait"`
 ### `margin: Object` 
-Size of the margins of the PDF pages.
+Margins for the page.
   - `top?: number` 
   - `bottom?: number`
   - `left?: number`
@@ -38,11 +37,11 @@ Size of the margins of the PDF pages.
 
 default value: `{ top: 0.25, bottom: 0.25, left: 0.25, right: 0.25, units: 'inches' }`
 ### `showPageNumbers: boolean` 
-Show/hide page numbers.
+Show or hide page numbers.
 
 default value: `true`
 ### `showEmptyRowsAndColumns: boolean` 
-Show/hide empty rows and columns. Applies to both list tables and crosstabs.
+Show or hide empty columns and rows in list tables and crosstabs.
 
 default value: `false`
 ### `includeTableOfContents: boolean` 
