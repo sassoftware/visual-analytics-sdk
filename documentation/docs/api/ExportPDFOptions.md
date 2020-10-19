@@ -49,15 +49,15 @@ Adds a table of contents to the beginning of the PDF.
 
 default value: `false`
 ### `includeAppendix: boolean` 
-When true, and the report has parameters, descriptions, filters, warnings, errors, or display rule legends, then an appendix is created. Each object that is selected to be included in the PDF is automatically assigned a value so that you can reference that object in the appendix.
+When `true`, and the report has parameters, descriptions, filters, warnings, errors, or display rule legends, then an appendix is created. Each object that is selected to be included in the PDF is automatically assigned a value so that you can reference that object in the appendix.
 
 default value: `true`
 ### `includeComments: boolean` 
-Include comments in the appendix of the printed output. Only valid if includeAppendix is true.
+Include comments in the appendix of the PDF output. Only valid if `includeAppendix` is `true`.
 
 default value: `false`
 ### `includeDetailsTables: boolean` 
-Adds a section at the end of the PDF that includes the details tables for all of the objects in the report that have detail tables associated with them. Only valid if includeAppendix is true.
+Adds a section at the end of the PDF that includes the details tables for all of the objects in the report that have detail tables associated with them. Only valid if `includeAppendix` is `true`.
 
 default value: `false`
 ### `expandClippedContent: boolean` 
@@ -65,14 +65,14 @@ Enables you to see all of the content for tables, crosstabs, gauges, and contain
 
 default value: `false`
 ### `includeCoverPage: boolean` 
-The cover page prints the name of the report (or the label if the report has not been saved), the date of the print request, the user name, and the number of pages.
+Adds a cover page to the PDF, which includes the name of the report, the date that the PDF was exported, the user name, and the number of pages.
 
 default value: `true`
 ### `coverPageText: string` 
-Used to add text to the cover page.
+Adds additional text on the cover page. Only valid if `includeCoverPage` is `true`.
 
 default value: `''`
 ### `includedReportObjects: string[]` 
-Array of report object IDs to include in the PDF. If empty, the entire report will be printed.
+A list of report object names for the objects to include in the exported PDF. If empty, the entire report will be exported.
 
 default value: `[]`
