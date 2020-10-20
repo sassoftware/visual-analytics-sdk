@@ -41,3 +41,9 @@
 - Add support for custom menu items with MenuItemProvider API
 - SAS Viya 2020.0.5 support
 - Bug fixes
+
+## 0.10.0 (Oct 20, 2020)
+
+- Add exportPDF API
+- SAS Viya 2020.0.6 support
+- Bug fixes
