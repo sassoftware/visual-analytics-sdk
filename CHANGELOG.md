@@ -31,19 +31,24 @@
 
 - Bug fixes
 
-## 0.8.0 (Aug 18, 2020)
+## 0.8.0 (August 18, 2020)
 
 - SAS Viya 2020.0.4 support
 - Bug fixes
 
-## 0.9.0 (Sept 16, 2020)
+## 0.9.0 (September 16, 2020)
 
 - Add support for custom menu items with MenuItemProvider API
 - SAS Viya 2020.0.5 support
 - Bug fixes
 
-## 0.10.0 (Oct 20, 2020)
+## 0.10.0 (October 20, 2020)
 
 - Add exportPDF API
 - SAS Viya 2020.0.6 support
+- Bug fixes
+
+## 0.11.0 (November 19, 2020)
+
+- SAS Viya 2020.0.7 support
 - Bug fixes
