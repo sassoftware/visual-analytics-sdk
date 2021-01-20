@@ -58,3 +58,8 @@
 - Page link navigation breadcrumb
 - SAS Viya 2020.1.1 support
 - Bug fixes
+
+## 0.13.0 (January 20, 2021)
+
+- SAS Viya 2020.1.2 support
+- Bug fixes
