@@ -63,3 +63,11 @@
 
 - SAS Viya 2020.1.2 support
 - Bug fixes
+
+## 0.14.0 (February 17, 2021)
+
+- Map element zoom controls
+- Hidden page support
+- Date and date-time slider UI support
+- SAS Viya 2020.1.3 support
+- Bug fixes
