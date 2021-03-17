@@ -14,6 +14,7 @@ to use SAS data to drive your own components or visualizations.
 - [`connectToServer`](api/connectToServer.md)
 - [`registerDataDrivenContent`](api/registerDataDrivenContent.md)
 - [`DataDrivenContentHandle`](api/DataDrivenContentHandle.md)
+- [`setUseHighContrastReportStyle`](api/setUseHighContrastReportStyle.md)
 
 ## Loading with \<script\>
 
