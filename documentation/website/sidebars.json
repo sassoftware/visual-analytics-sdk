@@ -12,7 +12,8 @@
       "api/MenuItemProvider",
       "api/connectToServer",
       "api/registerDataDrivenContent",
-      "api/DataDrivenContentHandle"
+      "api/DataDrivenContentHandle",
+      "api/setUseHighContrastReportTheme"
     ],
     "Resources": ["faq"]
   }
