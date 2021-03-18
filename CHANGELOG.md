@@ -71,3 +71,10 @@
 - Date and date-time slider UI support
 - SAS Viya 2020.1.3 support
 - Bug fixes
+
+## 0.15.0 (March 18, 2021)
+
+- Map element drag mode controls
+- Support for searchable option on list control
+- SAS Viya 2020.1.4 support
+- Bug fixes
