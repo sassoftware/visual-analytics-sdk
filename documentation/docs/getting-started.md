@@ -46,24 +46,24 @@ By default, your SAS Viya deployment is not set up to allow access to REST API e
 needed in order to connect to SAS Viya from the domain that is hosting your HTML page. This domain needs to be added to the
 `allowOrigins` property in SAS Viya deployment's CORS configuration. See
 <a target="_blank" href="https://developer.sas.com/reference/cors/">developer.sas.com</a> and
-<a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=calauthmdl&docsetTarget=n1pkgyrtk8bp4zn1d0v1ln4869og.htm#p04ifnaixhf85in1xo7zrr2fgimf">SAS Help Center</a> for more information.
+<a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calauthmdl&docsetTarget=p1gq6q7zzt52win1jwhc2b5kuc1z.htm&locale=en#p04ifnaixhf85in1xo7zrr2fgimf">SAS Help Center</a> for more information.
 
 ### Cross-Site Request Forgery
 
-SAS Viya servers protect against Cross-Site Request Forgery (CSRF) by blocking requests where the HTTP Referer Header does not match the URI of the requested resource or a URI whitelist. The domain of the site using the SAS Visual Analytics SDK must be whitelisted in the CSRF configuration.  See <a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=calconfig&docsetTarget=n08030sasconfiguration0admin.htm#n0nf0wwa3p7mjhn11926x4k9gl72">SAS Help Center</a> for more information.
+SAS Viya servers protect against Cross-Site Request Forgery (CSRF) by blocking requests where the HTTP Referer Header does not match the URI of the requested resource or a URI whitelist. The domain of the site using the SAS Visual Analytics SDK must be whitelisted in the CSRF configuration.  See <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calconfigref&docsetTarget=p1fejrlg8b007jn1krvvwzy5q7tn.htm#n0nf0wwa3p7mjhn11926x4k9gl72">SAS Help Center</a> for more information.
 
 ### Cross-Site Cookies
 
-The SAS Visual Analytics SDK requires the use of cookies to handle authentication with the SAS Viya Logon service. Browsers require that the response setting the cookie explicitly enable cross-site cookies by setting `samesite=none` on the response header. This is not the default for SAS Viya and must be configured in order to support the SDK. The `sameSite` configuration option in the `sas.commons.web.security.cookies` definition should be set to `None`, and should be applied globally to all services. See <a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=calconfig&docsetTarget=n08030sasconfiguration0admin.htm#p18obwsyh87dc7n18hvyxa1t8zjs">SAS Help Center</a> for more information.
+The SAS Visual Analytics SDK requires the use of cookies to handle authentication with the SAS Viya Logon service. Browsers require that the response setting the cookie explicitly enable cross-site cookies by setting `samesite=none` on the response header. This is not the default for SAS Viya and must be configured in order to support the SDK. The `sameSite` configuration option in the `sas.commons.web.security.cookies` definition should be set to `None`, and should be applied globally to all services. See <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calconfigref&docsetTarget=p1fejrlg8b007jn1krvvwzy5q7tn.htm#p0xav129qcxrytn14y2d8rnhdrlm">SAS Help Center</a> for more information.
 
 #### HTTPS
-It is also a requirement that SAS Viya be accessed using the HTTPS protocol in order for web browsers to allow cross-site cookies to be set by SAS Viya.  This requires that TLS (Transport Layer Security) be enabled on your SAS Viya deployment. See <a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=viyaov&docsetTarget=p0i3vcgjpciz45n1of1v4vkffwbn.htm&locale=en#p1xrvoju01719fn1trks0xkasjk5">SAS Help Center</a> for more information.
+It is also a requirement that SAS Viya be accessed using the HTTPS protocol in order for web browsers to allow cross-site cookies to be set by SAS Viya.  This requires that TLS (Transport Layer Security) be enabled on your SAS Viya deployment. See <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calencryptmotion&docsetTarget=n1bktkey9qb5z0n14fji0ss0b453.htm#p11136ylabo3k1n1rwctv2xrn8js">SAS Help Center</a> for more information.
 
 ### Allow guest access
 
 The SAS Visual Analytics SDK has the option to connect to the SAS Viya server using guest authentication. This requires that the SAS Viya system be
 set up to enable guest access, and that the guest user has access to the appropriate report content and data. For more information, see 
-<a target="_blank" href="https://documentation.sas.com/?cdcId=calcdc&cdcVersion=3.5&docsetId=calauthmdl&docsetTarget=n067qoyrgu1yohn19nq4ehy8o0b3.htm#p04ifnaixhf85in1xo7zrr2fgimf">SAS Help Center</a>.
+<a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calauthmdl&docsetTarget=n067qoyrgu1yohn19nq4ehy8o0b3.htm">SAS Help Center</a>.
 
 ## Include a custom elements polyfill
 

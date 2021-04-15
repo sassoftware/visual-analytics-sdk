@@ -15,7 +15,7 @@ handle can be obtained by calling the `getReportHandle` method on a
 
 Set the state of all the parameters in a report. For information on how
 parameters can be added to reports, see the
-<a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=8.5&docsetId=vareportdata&docsetTarget=n1wv50n60ccq86n1nzp6zat1wj64.htm">SAS documentation for parameters</a>.
+<a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=vareportdata&docsetTarget=n1wv50n60ccq86n1nzp6zat1wj64.htm">SAS documentation for parameters</a>.
 
 If `parameters` is an object, each key in the object should correspond to the
 name of a parameter used in the report. Keys are case-sensitive and must

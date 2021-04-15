@@ -11,7 +11,7 @@ calling [`registerDataDrivenContent`.](registerDataDrivenContent.md)
 ### `dispatch(message: Object): void`
 
 Send a data selection message to the data-driven content object. The message object should be of the form specified in
-the <a target="_blank" href="https://documentation.sas.com/?docsetId=varef&docsetTarget=n109mqtyl6quiun1mwfgtcn2s68b.htm&docsetVersion=8.5">SAS documentation for Selection Handling</a>.
+the <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n109mqtyl6quiun1mwfgtcn2s68b.htm#n1ua0gttqu1mibn16o9itypr5ai2">SAS documentation for Selection Handling</a>.
 
 ### `deregister(): void`
 
