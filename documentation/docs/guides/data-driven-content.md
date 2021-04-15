@@ -5,9 +5,8 @@ title: Data-Driven Content
 
 The data-driven content object is a feature in SAS Visual Analytics which allows you to embed your own web content into
 a report and drive it with data from SAS Visual Analytics. It responds to any filters, ranks, and actions in the same
-way that native report objects do. For more information, see
-<a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n109mqtyl6quiun1mwfgtcn2s68b.htm">Programming
-Considerations for Data-Driven Visualizations</a>.
+way that native report objects do. For more information, see the
+<a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n109mqtyl6quiun1mwfgtcn2s68b.htm">SAS Help Center</a>.
 
 The SAS Visual Analytics SDK offers two ways to work with data-driven content objects:
 

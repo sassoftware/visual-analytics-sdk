@@ -29,8 +29,7 @@ Choose options for how to connect to the server. The following properties are su
 ### `onMessage: (receivedMessage: Object) => void`
 
 Define a callback function to handle data changes for this data-driven content object. This function is called every
-time the data for this object is updated. The properties of the `receivedMessage` object as well as more information
-about receiving data for data driven content can be found in the <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n109mqtyl6quiun1mwfgtcn2s68b.htm#n1dce3mqdct26pn12s4yl6s3h39q">SAS documentation for Receiving Data</a>.
+time the data for this object is updated. For more information about the properties of the `receivedMessage` object as well as receiving data for data driven content, see the <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n109mqtyl6quiun1mwfgtcn2s68b.htm#n1dce3mqdct26pn12s4yl6s3h39q">SAS Help Center</a>.
 
 ## Return value
 
