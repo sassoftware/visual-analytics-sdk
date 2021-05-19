@@ -84,3 +84,8 @@
 - Support for select all option on list control
 - SAS Viya 2020.1.5 support
 - Bug fixes
+
+## 0.17.0 (May 19, 2021)
+
+- SAS Viya 2021.1.1 support
+- Bug fixes
