@@ -9,7 +9,24 @@ handle can be obtained by calling the `getReportHandle` method on a
 [`SASReportPageElement`](SASReportPageElement.md), or
 [`SASReportObjectElement`](SASReportObjectElement.md).
 
+When a report element is assigned new attribute values or removed from the DOM,
+any `ReportHandles` obtained from that element are invalidated and should be
+discarded.
+
 ## Methods
+
+### getObjectHandle(objectName: string): Promise\<ObjectHandle>
+
+Get an [ObjectHandle](ObjectHandle.md) for performing actions on a single object
+in the report.
+
+Possible values for `objectName` are the same as the `objectName` attribute on
+[`SASReportObjectElement`](SASReportObjectElement.md). The promise is rejected
+if the name does not exist in the report.
+
+[`ObjectHandles`](ObjectHandle.md) are invalidated under the same conditions as
+`ReportHandles`. To obtain another one, get a new `ReportHandle` and call
+`getObjectHandle` again.
 
 ### setReportParameters(parameters: Object | undefined): void
 
@@ -117,7 +134,11 @@ sasReport.getReportHandle().then((reportHandle) => {
 
   reportHandle.exportPDF(options).then((pdfUrl) => {
     // Open the PDF in a new window
-    window.open(pdfUrl, '_blank');
+    window.open(pdfUrl, "_blank");
   });
 });
 ```
+
+### refreshData(): void
+
+Refreshes the data for all of the objects in the report.
