@@ -56,6 +56,8 @@ SAS Viya servers protect against Cross-Site Request Forgery (CSRF) by blocking r
 
 The SAS Visual Analytics SDK requires the use of cookies to handle authentication with the SAS Viya Logon service. Browsers require that the response setting the cookie explicitly enable cross-site cookies by setting `samesite=none` on the response header. This is not the default for SAS Viya and must be configured in order to support the SDK. The `sameSite` configuration option in the `sas.commons.web.security.cookies` definition should be set to `None`, and should be applied globally to all services. See <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calconfigref&docsetTarget=p1fejrlg8b007jn1krvvwzy5q7tn.htm#p0xav129qcxrytn14y2d8rnhdrlm">SAS Help Center</a> for more information.
 
+Note: If you have enabled settings that block cookies in your web browser, then the VA SDK cannot authenticate with SAS Viya. Check your settings to make sure your web browser allows third-party cookies.
+
 #### HTTPS
 It is also a requirement that SAS Viya be accessed using the HTTPS protocol in order for web browsers to allow cross-site cookies to be set by SAS Viya.  This requires that TLS (Transport Layer Security) be enabled on your SAS Viya deployment. See <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calencryptmotion&docsetTarget=n1bktkey9qb5z0n14fji0ss0b453.htm#p11136ylabo3k1n1rwctv2xrn8js">SAS Help Center</a> for more information.
 
