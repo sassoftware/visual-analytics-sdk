@@ -15,4 +15,5 @@ discarded.
 
 ### refreshData(): void
 
-Refreshes the data for the report object controlled by the `ObjectHandle`.
+Refreshes the data for the report object that is controlled by the
+`ObjectHandle`.
