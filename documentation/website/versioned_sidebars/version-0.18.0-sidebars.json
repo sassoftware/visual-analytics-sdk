@@ -1,0 +1,27 @@
+{
+  "version-0.18.0-docs": {
+    "Introduction": [
+      "version-0.18.0-getting-started"
+    ],
+    "Guides": [
+      "version-0.18.0-guides/data-driven-content"
+    ],
+    "API Reference": [
+      "version-0.18.0-api-reference",
+      "version-0.18.0-api/SASReportElement",
+      "version-0.18.0-api/SASReportPageElement",
+      "version-0.18.0-api/SASReportObjectElement",
+      "version-0.18.0-api/ReportHandle",
+      "version-0.18.0-api/ObjectHandle",
+      "version-0.18.0-api/ExportPDFOptions",
+      "version-0.18.0-api/MenuItemProvider",
+      "version-0.18.0-api/connectToServer",
+      "version-0.18.0-api/registerDataDrivenContent",
+      "version-0.18.0-api/DataDrivenContentHandle",
+      "version-0.18.0-api/setUseHighContrastReportTheme"
+    ],
+    "Resources": [
+      "version-0.18.0-faq"
+    ]
+  }
+}

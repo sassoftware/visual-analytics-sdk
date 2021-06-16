@@ -1,6 +1,7 @@
 ---
-id: api-reference
+id: version-0.18.0-api-reference
 title: API Reference
+original_id: api-reference
 ---
 
 The SAS Visual Analytics SDK provides a set of components and APIs that enable you to render reports and report parts. It also enables you 

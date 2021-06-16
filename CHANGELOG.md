@@ -89,3 +89,10 @@
 
 - SAS Viya 2021.1.1 support
 - Bug fixes
+
+## 0.18.0 (June 16, 2021)
+
+- SAS Viya 2021.1.2 support
+- Add getObjectHandle API
+- Add refreshData API (ReportHandle and ObjectHandle)
+- Bug fixes
