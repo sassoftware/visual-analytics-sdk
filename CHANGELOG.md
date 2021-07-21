@@ -96,3 +96,9 @@
 - Add getObjectHandle API
 - Add refreshData API (ReportHandle and ObjectHandle)
 - Bug fixes
+
+## 0.19.0 (July 21, 2021)
+
+- SAS Viya 2021.1.3 support
+- Add setLoadingTheme API
+- Bug fixes
