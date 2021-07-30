@@ -12,7 +12,7 @@ Note: The configuration changes listed below should all be made to the global co
 
 By default, your SAS Viya deployment is not set up to allow access to REST API endpoints from different domains. This is
 needed in order to connect to SAS Viya from the domain that is hosting your HTML page. This domain needs to be added to the
-`allowOrigins` property in SAS Viya deployment's CORS configuration. This can be done by following the <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calauthmdl&docsetTarget=p1gq6q7zzt52win1jwhc2b5kuc1z.htm&locale=en#p04ifnaixhf85in1xo7zrr2fgimf">Configure Cross-Origin Resource Sharing</a> documentation. Note that the `allowedOrigins` property does not support using the value `*` to support all origins. You must explicitly add you domain or a list of domains.
+`allowOrigins` property in SAS Viya deployment's CORS configuration. This can be done by following the <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calauthmdl&docsetTarget=p1gq6q7zzt52win1jwhc2b5kuc1z.htm&locale=en#p04ifnaixhf85in1xo7zrr2fgimf">Configure Cross-Origin Resource Sharing</a> documentation. Note that the `allowedOrigins` property does not support using the value `*` to support all origins. You must explicitly add your domain or a list of domains.
 
 ## Cross-Site Request Forgery
 
