@@ -39,6 +39,12 @@ optional port, and host.
 
 Specify the report URI.
 
+### `packageUri: string`
+
+Specify the base location of the SAS report package that was exported from SAS Visual Analytics.  This can be absolute or relative to the page. `authenticationType`, `url`, and `reportUri` are ignored when this property is set.
+
+See [Export Report Package](guides/export-report-package.md)
+
 ### `objectName: string`
 
 Specify the name of the object from the report to display.

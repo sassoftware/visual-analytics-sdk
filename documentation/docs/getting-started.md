@@ -40,7 +40,7 @@ using an HTML `script` tag. When used in production, the version should be pinne
 
 ## SAS Viya setup
 
-The SAS Visual Analytics SDK requires connecting to SAS Viya server.  Server setup requirements are covered in the [SAS Viya Setup Guide](guides/viya-setup.md).
+The SAS Visual Analytics SDK requires either connecting directly to SAS Viya or exporting a SAS Report Package.  Server setup requirements for connecting to SAS Viya are covered in the [SAS Viya Setup Guide](guides/viya-setup.md).
 
 ## Include a custom elements polyfill
 
