@@ -102,3 +102,10 @@
 - SAS Viya 2021.1.3 support
 - Add setLoadingTheme API
 - Bug fixes
+
+## 0.20.0 (Aug 18, 2021)
+
+- SAS Viya 2021.1.4 support
+- Add reloadReport API (ReportHandle)
+- Add support for object maximize and detailed data
+- Bug fixes
