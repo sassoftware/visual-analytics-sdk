@@ -145,4 +145,4 @@ Refreshes the data for all of the objects in the report.
 
 ### reloadReport(): void
 
-Reload the report. This updates all report content and data, resetting all filters and parameters back to default values.
+Reloads the report. This updates all report content and data, which resets all filters and parameters to their default values.
