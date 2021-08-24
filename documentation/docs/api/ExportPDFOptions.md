@@ -76,3 +76,6 @@ default value: `''`
 A list of report object names for the objects to include in the exported PDF. If empty, the entire report will be exported.
 
 default value: `[]`
+
+### `enablePdfAccessibleTags: boolean`
+Enables you to create a tagged PDF, which contains accessibility markup that optimizes the reading experience for users who use screen readers or other assistive technology.
