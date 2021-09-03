@@ -9,7 +9,7 @@ library.
 
 ## Prerequisites
 
-Access to a deployment of SAS Visual Analytics 8.4 (or later) is necessary in order to use the SDK. For more information about server set up, see <a target="_blank" href="https://developer.sas.com/sdk/va/docs/getting-started#sas-viya-setup">SAS Viya setup</a>.
+Access to a deployment of SAS Visual Analytics 8.4 (or later) is necessary in order to use the SDK. For more information about server set up, see <a target="_blank" href="https://developer.sas.com/sdk/va/docs/guides/viya-setup/">SAS Viya setup</a>.
 
 ## Installation
 
