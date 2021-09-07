@@ -42,14 +42,6 @@ using an HTML `script` tag. When used in production, the version should be pinne
 
 The SAS Visual Analytics SDK requires connecting to SAS Viya server.  Server setup requirements are covered in the [SAS Viya Setup Guide](guides/viya-setup.md).
 
-## Include a custom elements polyfill
-
-A <a target="_blank" href="https://www.npmjs.com/package/@webcomponents/custom-elements">custom elements polyfill</a> is required for Microsoft Edge support. The following script tag should be added before the `va-report-components` script tag.
-
-```html
-<script src="https://unpkg.com/@webcomponents/custom-elements"></script>
-```
-
 ## Create a custom HTML tag
 
 To build the custom HTML tag that you will embed in your web page:

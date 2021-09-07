@@ -12,10 +12,10 @@ Use of the SAS Visual Analytics SDK requires access to SAS Visual Analytics vers
 
 The SAS Visual Analytics SDK supports:
 
-- Chrome 67+
-- Firefox 60+
-- Safari 11+
-- Edge 17+ (with a [custom element polyfill](getting-started.md#include-a-custom-element-polyfill))
+- Chrome 85+
+- Firefox 78+
+- Safari 13+
+- Edge 80+
 
 ## Is there a license to use the SAS Visual Analytics SDK?
 
