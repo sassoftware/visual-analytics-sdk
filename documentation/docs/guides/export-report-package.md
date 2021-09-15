@@ -7,7 +7,7 @@ The SAS Visual Analytics SDK can be used in two fundamentally different ways. In
 
 ## How do I export a SAS Report Package?
 
-There are two methods for exporting entire reports or subsets of reports (which enable you to embed individual objects or pages) as a SAS report package. The first method is to use the export feature in SAS Visual Analytics. which enables you to export a report package as a ZIP file. For more information, see <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=v_008&docsetId=vareports&docsetTarget=p0log1ce8qcj4cn15k0oby258pdb.htm">Exporting SAS Report Packages</a>. This method works well for one-time use and for learning about the supported export features. However, if your data changes regularly, then you might want to use the second method of automating the creation of the report package. You can do this using the reports plug-in to the SAS Viya CLI. For more information, see <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=v_014&docsetId=calcli&docsetTarget=n09r8rzfe0xt6gn1krnt75beevgk.htm">CLI Examples: Reports</a>.
+There are two methods for exporting entire reports or subsets of reports (which enable you to embed individual objects or pages) as a SAS report package. The first method is to use the export feature in SAS Visual Analytics. which enables you to export a report package as a ZIP file. For more information, see <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=vareports&docsetTarget=p0log1ce8qcj4cn15k0oby258pdb.htm">Exporting SAS Report Packages</a>. This method works well for one-time use and for learning about the supported export features. However, if your data changes regularly, then you might want to use the second method of automating the creation of the report package. You can do this using the reports plug-in to the SAS Viya CLI. For more information, see <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calcli&docsetTarget=n09r8rzfe0xt6gn1krnt75beevgk.htm">CLI Examples: Reports</a>.
 
 ## What do I do with the SAS Report Package?
 
@@ -43,7 +43,7 @@ Use the [@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
 </style>
 ```
 
-It might be necessary for you to use a font that is not a standard font available in SAS Visual Analytics. To do this, you must first load the font onto SAS Viya by utilizing the SAS Viya CLI fonts plug-in, as shown in <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=v_014&docsetId=calfonts&docsetTarget=p0z64ee1ufe5vpn1pibg7pzhsgrb.htm">Fonts: CLI Examples</a>. You can then create the report content using that font.
+It might be necessary for you to use a font that is not a standard font available in SAS Visual Analytics. To do this, you must first load the font onto SAS Viya by utilizing the SAS Viya CLI fonts plug-in, as shown in <a target="_blank" href="https://documentation.sas.com/?cdcId=sasadmincdc&cdcVersion=default&docsetId=calfonts&docsetTarget=p0z64ee1ufe5vpn1pibg7pzhsgrb.htm">Fonts: CLI Examples</a>. You can then create the report content using that font.
 
 ## Are all features and APIs supported?
 
@@ -52,4 +52,4 @@ As mentioned above, `url`, `reportUri`, and `authenticationType` are ignored whe
 * [`setUseHighContrastReportTheme`](api/setUseHighContrastReportTheme.md)
 * Custom report themes
 
-Some objects and advanced object functionality are not supported for report packages. Those details are outlined in <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=v_008&docsetId=varef&docsetTarget=n1tbiwkzea35nin1wbvjdcregjcs.htm#p0bfdy2hrkw4lzn1glyhtfu02t2h">SAS Report Package Reference</a> and further clarifications can be found at <a target="_blank" href="https://documentation.sas.com/?docsetVersion=v_002&docsetId=varef&docsetTarget=n1tbiwkzea35nin1wbvjdcregjcs.htm#p080fwv713hlzfn1cjvls3mfg6u0">SAS Report Packages: Frequently Asked Questions</a>.
+Some objects and advanced object functionality are not supported for report packages. Those details are outlined in <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n1tbiwkzea35nin1wbvjdcregjcs.htm#p0bfdy2hrkw4lzn1glyhtfu02t2h">SAS Report Package Reference</a> and further clarifications can be found at <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n1tbiwkzea35nin1wbvjdcregjcs.htm#p080fwv713hlzfn1cjvls3mfg6u0">SAS Report Packages: Frequently Asked Questions</a>.
