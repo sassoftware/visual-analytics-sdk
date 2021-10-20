@@ -49,6 +49,7 @@ It might be necessary for you to use a font that is not a standard font availabl
 
 As mentioned above, `url`, `reportUri`, and `authenticationType` are ignored when you set `packageUri`. The following APIs and features are not supported for report packages:
 * [`exportPDF`](api/ReportHandle.md#exportpdfoptions-exportpdfoptions-promise-string)
+* [`exportData`](api/ObjectHandle.md#exportdataformat-string-options-exportdataoptions-promise-string)
 * [`setUseHighContrastReportTheme`](api/setUseHighContrastReportTheme.md)
 * Custom report themes
 
