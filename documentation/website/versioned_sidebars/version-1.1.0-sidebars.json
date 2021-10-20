@@ -1,0 +1,31 @@
+{
+  "version-1.1.0-docs": {
+    "Introduction": [
+      "version-1.1.0-getting-started"
+    ],
+    "Guides": [
+      "version-1.1.0-guides/viya-setup",
+      "version-1.1.0-guides/export-report-package",
+      "version-1.1.0-guides/data-driven-content"
+    ],
+    "API Reference": [
+      "version-1.1.0-api-reference",
+      "version-1.1.0-api/SASReportElement",
+      "version-1.1.0-api/SASReportPageElement",
+      "version-1.1.0-api/SASReportObjectElement",
+      "version-1.1.0-api/ReportHandle",
+      "version-1.1.0-api/ObjectHandle",
+      "version-1.1.0-api/ExportPDFOptions",
+      "version-1.1.0-api/ExportDataOptions",
+      "version-1.1.0-api/MenuItemProvider",
+      "version-1.1.0-api/connectToServer",
+      "version-1.1.0-api/registerDataDrivenContent",
+      "version-1.1.0-api/DataDrivenContentHandle",
+      "version-1.1.0-api/setUseHighContrastReportTheme",
+      "version-1.1.0-api/setLoadingTheme"
+    ],
+    "Resources": [
+      "version-1.1.0-faq"
+    ]
+  }
+}

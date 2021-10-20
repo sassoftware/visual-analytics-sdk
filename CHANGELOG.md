@@ -113,7 +113,13 @@
 ## 1.0.0 (September 15, 2021)
 
 - SAS Viya 2021.1.5 support
-- SAS Viya 2021.2 LTS support
 - Add enablePdfAccessibleTags to ExportPDFOptions
 - Add packageUri API and support exported SAS Report Packages
+- Bug fixes
+
+## 1.1.0 (October 20, 2021)
+
+- SAS Viya 2021.1.6 support
+- SAS Viya 2021.2 LTS support
+- Add exportData API (ObjectHandle)
 - Bug fixes
