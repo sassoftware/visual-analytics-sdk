@@ -123,3 +123,9 @@
 - SAS Viya 2021.2 LTS support
 - Add exportData API (ObjectHandle)
 - Bug fixes
+
+## 121.0 (November 18, 2021)
+
+- SAS Viya 2021.2.1 support
+- Support setUseHighContrastReportTheme API with exported SAS Report Packages
+- Bug fixes
