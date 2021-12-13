@@ -11,7 +11,7 @@ There are two methods for exporting entire reports or subsets of reports (which 
 
 ## What do I do with the SAS Report Package?
 
-The exported report package includes a sample HTML page (`index.html`) that demonstrates the mechanics of how to use the SAS Visul Analytics SDK to render the report content. In order to see the sample page, deploy all of the report package contents to a web server. Then, navigate a web browser to the URL of the `index.html` file.
+The exported report package includes a sample HTML page (`index.html`) that demonstrates the mechanics of how to use the SAS Visual Analytics SDK to render the report content. A second HTML page (`packageIndex.html`) is included to give you detailed information about all of the exported report objects and code snippets and to help you incorporate them into your own page. In order to see the these HTML pages, deploy all of the report package contents to a web server. Then, navigate a web browser to the URL of the `index.html` or `packageIndex.html` file.
 
 When you create a new web page or embed report content into an existing web page, it is common to co-locate the report package content with other assets for the web page. You might want to have a `reportAsests` folder that is deployed along with your HTML file. However, it is possible to put the report package content anywhere that is accessible through a URL.
 
