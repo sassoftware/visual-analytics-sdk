@@ -50,6 +50,5 @@ It might be necessary for you to use a font that is not a standard font availabl
 As mentioned above, `url`, `reportUri`, and `authenticationType` are ignored when you set `packageUri`. The following APIs and features are not supported for report packages:
 * [`exportPDF`](api/ReportHandle.md#exportpdfoptions-exportpdfoptions-promise-string)
 * [`exportData`](api/ObjectHandle.md#exportdataformat-string-options-exportdataoptions-promise-string)
-* Custom report themes
 
 Some objects and advanced object functionality are not supported for report packages. Those details are outlined in <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n1tbiwkzea35nin1wbvjdcregjcs.htm#p0bfdy2hrkw4lzn1glyhtfu02t2h">SAS Report Package Reference</a> and further clarifications can be found at <a target="_blank" href="https://documentation.sas.com/?cdcId=vacdc&cdcVersion=default&docsetId=varef&docsetTarget=n1tbiwkzea35nin1wbvjdcregjcs.htm#p080fwv713hlzfn1cjvls3mfg6u0">SAS Report Packages: Frequently Asked Questions</a>.
