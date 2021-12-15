@@ -1,6 +1,7 @@
 ---
-id: getting-started
+id: version-1.3.0-getting-started
 title: Getting started
+original_id: getting-started
 ---
 
 The SAS Visual Analytics SDK enables you to use the power of SAS Visual Analytics in your own websites and HTML applications.

@@ -129,3 +129,9 @@
 - SAS Viya 2021.2.1 support
 - Support setUseHighContrastReportTheme API with exported SAS Report Packages
 - Bug fixes
+
+## 1.3.0 (December 15, 2021)
+
+- SAS Viya 2021.2.2 support
+- Support custom report themes with exported SAS Report Packages
+- Bug fixes
