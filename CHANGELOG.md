@@ -135,3 +135,8 @@
 - SAS Viya 2021.2.2 support
 - Support custom report themes with exported SAS Report Packages
 - Bug fixes
+
+## 1.4.0 (January 19, 2022)
+
+- SAS Viya 2021.2.3 support
+- Bug fixes
