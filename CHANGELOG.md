@@ -140,3 +140,8 @@
 
 - SAS Viya 2021.2.3 support
 - Bug fixes
+
+## 1.5.0 (February 17, 2022)
+
+- SAS Viya 2021.2.4 support
+- Bug fixes
