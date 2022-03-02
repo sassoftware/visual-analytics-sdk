@@ -26,6 +26,14 @@ Supported formats:
 
 If no `options` parameter is supplied, the data will be exported using the default option values. 
 
+### exportPDF(options?: ExportPDFOptions): Promise\<string>
+
+Exports a PDF of the report object and returns a URL to the PDF document. 
+
+`options` is an [`ExportPDFOptions`](ExportPDFOptions.md) that controls the format of the exported PDF document. The option `includedReportObjects` does not apply when exporting a report object.
+
+If no `options` parameter is supplied, the report will be exported using the default options values.
+
 ### refreshData(): void
 
 Refreshes the data for the report object that is controlled by the
