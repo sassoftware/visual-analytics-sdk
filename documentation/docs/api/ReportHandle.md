@@ -116,7 +116,7 @@ sasReport.getReportHandle().then((reportHandle) => {
 Exports a PDF of the report and returns a URL to the PDF document.
 
 `options` is an [`ExportPDFOptions`](ExportPDFOptions.md) that controls the format of the exported PDF document.
-If no `options` parameter is supplied, the report will be exported using the default options values.
+If no `options` parameter is supplied, the report is exported using the default options values.
 
 #### Example
 
