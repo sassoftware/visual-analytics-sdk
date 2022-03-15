@@ -31,6 +31,18 @@ When you use the SAS Visual Analytics SDK to connect directly to SAS Viya, the f
 
 ### Define the font face in CSS
 
+#### Using SAS Viya fonts
+
+Within the exported report package, a file named `viyafonts.css` references fonts from your SAS Viya deployment for use in your page. Including a link to this stylesheet in your HTML page enables access to the fonts used to designed the report.
+
+To retrieve these fonts, a live connection to SAS Viya is required. The fonts will not be retrieved while offline.
+
+```html
+<link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+```
+
+#### Using your custom fonts
+
 Use the [@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) in your CSS to define the font (or fonts) that are used by the report content. This means you must know the `font-family` name and have access to the font files.
 
 ```html
