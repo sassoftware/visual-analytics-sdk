@@ -35,11 +35,11 @@ The library can then be loaded out of the deployed assets folder using a `script
 
 Accessing the `va-report-components` library from a CDN is easy. It does not require installation or
 hosting of the library code and assets. There are several public options for accessing NPM content through a CDN, such
-as <a target="_blank" href="https://unpkg.com/">UNPKG</a> and <a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a>. Here is an example of loading the 1.5.0 version of `va-report-components` from UNPKG
+as <a target="_blank" href="https://unpkg.com/">UNPKG</a> and <a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a>. Here is an example of loading the 1.6.0 version of `va-report-components` from UNPKG
 using an HTML `script` tag. When used in production, the version should be pinned to the full `major.minor.patch` semantic version.
 
 ```html
-<script async src="https://unpkg.com/@sassoftware/va-report-components@1.5.0/dist/umd/va-report-components.js"></script>
+<script async src="https://unpkg.com/@sassoftware/va-report-components@1.6.0/dist/umd/va-report-components.js"></script>
 ```
 
 ## Getting Started
