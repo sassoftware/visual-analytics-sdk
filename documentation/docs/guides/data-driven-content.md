@@ -129,7 +129,7 @@ const columnLabels = message.columns.filter((column) => column.usage !== 'brush'
 
 #### The `data` property
 
-The `data` property is a two-dimentional array that is in row-major order. Each element of `data` is a row, and each row
+The `data` property is a two-dimensional array that is in row-major order. Each element of `data` is a row, and each row
 is an array of values. The following code processes each data row, passing it to `createTableRow` in order to process
 the values and create a row in the HTML table.
 

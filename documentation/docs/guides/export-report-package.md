@@ -13,7 +13,7 @@ There are two methods for exporting entire reports or subsets of reports (which 
 
 The exported report package includes a sample HTML page (`index.html`) that demonstrates the mechanics of how to use the SAS Visual Analytics SDK to render the report content. A second HTML page (`packageIndex.html`) is included to give you detailed information about all of the exported report objects and code snippets and to help you incorporate them into your own page. In order to see these HTML pages, deploy all of the report package contents to a web server. Then, navigate a web browser to the URL of the `index.html` or `packageIndex.html` file.
 
-When you create a new web page or embed report content into an existing web page, it is common to co-locate the report package content with other assets for the web page. You might want to have a `reportAsests` folder that is deployed along with your HTML file. However, it is possible to put the report package content anywhere that is accessible through a URL.
+When you create a new web page or embed report content into an existing web page, it is common to co-locate the report package content with other assets for the web page. You might want to have a `reportAssets` folder that is deployed along with your HTML file. However, it is possible to put the report package content anywhere that is accessible through a URL.
 
 Once you extract the report package contents and you know where they are deployed, you can reference the content using the `packageUri` property on [`SASReportElement`](api/SASReportElement.md#packageuri-string), [`SASReportPageElement`](api/SASReportPageElement.md#packageuri-string), or [`SASReportObjectElement`](api/SASReportObjectElement.md#packageuri-string). `packageUri` should point to the base location of the package contents, either with an absolute or relative URL. 
 
@@ -35,7 +35,7 @@ When you use the SAS Visual Analytics SDK to connect directly to SAS Viya, the f
 
 Within the exported report package, a file named `viyafonts.css` references fonts from your SAS Viya deployment for use in your page. Including a link to this stylesheet in your HTML page enables it to access the fonts that were used to design the report.
 
-To retrieve these fonts, a live connection to SAS Viya is required. The fonts cannot be retrieved while offline.
+To retrieve these fonts, a live connection to a SAS Viya server with CORS enabled is required. The fonts cannot be retrieved while offline. For more information on enabling CORS, see [`Enable Cross-Origin Resource Sharing`](viya-setup#enable-cross-origin-resource-sharing).
 
 ```html
 <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
