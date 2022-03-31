@@ -35,7 +35,7 @@ When you use the SAS Visual Analytics SDK to connect directly to SAS Viya, the f
 
 Within the exported report package, a file named `viyafonts.css` references fonts from your SAS Viya deployment for use in your page. Including a link to this stylesheet in your HTML page enables it to access the fonts that were used to design the report.
 
-To retrieve these fonts, a live connection to a SAS Viya server with CORS enabled is required. The fonts cannot be retrieved while offline. For more information on enabling CORS, see [`Enable Cross-Origin Resource Sharing`](viya-setup#enable-cross-origin-resource-sharing).
+To use these fonts, the SAS Viya deployment must be accessible and have CORS enabled. For more information on enabling CORS, see [`Enable Cross-Origin Resource Sharing`](viya-setup#enable-cross-origin-resource-sharing).
 
 ```html
 <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
