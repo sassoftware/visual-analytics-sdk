@@ -151,3 +151,8 @@
 - SAS Viya 2021.2.5 support (Report Package version 23)
 - Support SAS Viya fonts with exported SAS Report Packages
 - Bug fixes
+
+## 1.7.0 (April 21, 2022)
+
+- SAS Viya 2021.2.6 support (Report Package version 24)
+- Bug fixes
