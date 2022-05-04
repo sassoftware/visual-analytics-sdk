@@ -29,14 +29,14 @@ The library can then be loaded out of the deployed assets folder using a `script
 
 ### CDN (Content Delivery Network)
 
-Accessing the `va-report-components` library from a CDN is easy. It does not require installation or
-hosting of the library code and assets. There are several public options for accessing NPM content through a CDN, such
-as <a target="_blank" href="https://unpkg.com/">UNPKG</a> and <a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a>. Here is an example of loading the 1.7.0 version of `va-report-components` from UNPKG
-using an HTML `script` tag. When used in production, the version should be pinned to the full `major.minor.patch` semantic version.
+Accessing the `va-report-components` library from the SAS CDN is easy. It does not require installation or
+hosting of the library code and assets. Here is an example of loading the latest version of `va-report-components` from the CDN using an HTML `script` tag.
 
 ```html
-<script async src="https://unpkg.com/@sassoftware/va-report-components@1.7.0/dist/umd/va-report-components.js"></script>
+<script async src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"></script>
 ```
+
+When used in production, consider pinning to an explicit version. This is done with a URL like `https://cdn.developer.sas.com/packages/va-report-components/${VERSION}/dist/umd/va-report-components.js`, where `${VERSION}` is the full `major.minor.patch` semantic version.
 
 ## SAS Viya setup
 

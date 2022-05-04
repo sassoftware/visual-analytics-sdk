@@ -23,7 +23,7 @@ When you load the library with a script element, the `vaReportComponents` global
 assets are loaded. The `vaReportComponents.loaded` event is dispatched once it is ready.
 
 ```html
-<script async src="https://unpkg.com/@sassoftware/va-report-components@1.7.0/dist/umd/va-report-components.js"></script>
+<script async src="https://cdn.developer.sas.com/packages/va-report-components/latest/dist/umd/va-report-components.js"></script>
 <script>
   window.addEventListener('vaReportComponents.loaded', function() {
     // The SAS Visual Analytics SDK is loaded and ready
