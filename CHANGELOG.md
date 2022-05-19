@@ -157,3 +157,8 @@
 - SAS Viya 2021.2.6 support (Report Package version 24)
 - SAS Viya 2022.1 LTS support
 - Bug fixes
+
+## 1.8.0 (May 19, 2022)
+
+- SAS Viya 2022.1.1 support (Report Package version 25)
+- Bug fixes
