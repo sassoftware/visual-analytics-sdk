@@ -30,7 +30,7 @@ The library can then be loaded out of the deployed assets folder using a `script
 
 ### CDN (Content Delivery Network)
 
-Accessing the `va-report-components` library from the SAS CDN is easy. It does not require installation or
+Accessing the `va-report-components` library from the SAS Developer CDN is easy. It does not require installation or
 hosting of the library code and assets. Here is an example of loading the latest version of `va-report-components` from the CDN using an HTML `script` tag.
 
 ```html
