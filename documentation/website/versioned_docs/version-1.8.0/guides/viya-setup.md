@@ -1,6 +1,7 @@
 ---
-id: viya-setup
+id: version-1.8.0-viya-setup
 title: SAS Viya Setup
+original_id: viya-setup
 ---
 
 This guide explains how to modify the SAS Viya security settings to connect to the SAS Visual Analytics SDK. You need administrator credentials to make these changes using SAS Environment Manager.
