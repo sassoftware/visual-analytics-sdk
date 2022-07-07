@@ -1,4 +1,5 @@
-# SAS Visual Analytics SDK
+# SAS Visual Analytics SDK -- Archived repository
+**Notice: The Visual Analytics SDK has moved and is now part of the SAS Viya SDK for JavaScript. See [sas-viya-sdk-js](https://github.com/sassoftware/sas-viya-sdk-js/tree/main/sdk/va-report-components) for documentation, examples and to enter new GitHub issues.**
 
 ## Overview
 
